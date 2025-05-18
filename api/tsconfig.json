@@ -1,0 +1,15 @@
+{
+  "files": [
+    "index.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "moduleDetection": "force",
+    "module": "Preserve",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "extends": "../tsconfig.base.json"
+}
