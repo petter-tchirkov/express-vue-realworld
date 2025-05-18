@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 
-const huy = ref("");
+const huy = ref(null);
 
 const fetchHuy = async () => {
   const response = await fetch("/api");

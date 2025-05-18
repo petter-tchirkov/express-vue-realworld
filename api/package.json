@@ -13,16 +13,21 @@
   },
   "dependencies": {
     "@conduit/eslint": "workspace:^",
+    "@prisma/client": "^6.8.2",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.1",
     "@types/cors": "^2.8.18",
     "@types/express": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/node": "^22.15.18",
     "eslint": "^9.26.0",
     "eslint-plugin-format": "^1.0.1",
+    "prisma": "^6.8.2",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   }
