@@ -1,0 +1,13 @@
+{
+  "name": "@conduit/eslint",
+  "type": "module",
+  "exports": {
+    ".": "./eslint.config.js",
+    "./create-config": "./create-config.js"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.13.1",
+    "eslint": "^9.26.0",
+    "eslint-plugin-format": "^1.0.1"
+  }
+}

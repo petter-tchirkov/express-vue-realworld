@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { onMounted, ref } from "vue";
 
-const huy = ref('')
+const huy = ref("");
 
 const fetchHuy = async () => {
-  const response = await fetch('/api')
-  const data = await response.json()
-  huy.value = data
-}
+  const response = await fetch("/api");
+  const data = await response.json();
+  huy.value = data;
+};
 
-onMounted(() => fetchHuy())
+onMounted(() => fetchHuy());
 </script>
 
 <template>

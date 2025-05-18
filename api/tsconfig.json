@@ -1,15 +1,16 @@
 {
-  "files": [
-    "index.ts"
-  ],
+  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "outDir": "./dist",
     "moduleDetection": "force",
+    "baseUrl": "./src/",
     "module": "Preserve",
     "resolveJsonModule": true,
     "allowJs": true,
+    "outDir": "./dist",
     "esModuleInterop": true,
     "isolatedModules": true
   },
-  "extends": "../tsconfig.base.json"
+  "files": [
+    "./src/index.ts"
+  ]
 }
