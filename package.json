@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "pnpm run -r --parallel --aggregate-output dev",
     "build": "pnpm run -r build",
-    "lint": "pnpm run -r --parallel lint"
+    "lint": "pnpm run -r --parallel lint",
+    "clean": "pnpm exec rm -rf node_modules ./api/node_modules ./frontend/node_modules ./shared/eslint/node_modules"
   },
   "keywords": [],
   "author": "",

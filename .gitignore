@@ -38,3 +38,4 @@ yarn-error.log*
 */dist
 .env
 */.env
+shared/eslint/node_modules/
