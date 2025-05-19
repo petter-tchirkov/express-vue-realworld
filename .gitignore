@@ -41,5 +41,5 @@ yarn-error.log*
 shared/eslint/node_modules
 shared/eslint/node_modules
 api/prisma
-api/generated
+api/src/generated
 
