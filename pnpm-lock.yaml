@@ -10,9 +10,6 @@ importers:
 
   api:
     dependencies:
-      '@conduit/eslint':
-        specifier: workspace:^
-        version: link:../shared/eslint
       '@prisma/client':
         specifier: ^6.8.2
         version: 6.8.2(prisma@6.8.2(typescript@5.8.3))(typescript@5.8.3)
@@ -65,9 +62,6 @@ importers:
 
   frontend:
     dependencies:
-      '@conduit/eslint':
-        specifier: workspace:^
-        version: link:../shared/eslint
       pinia:
         specifier: ^3.0.1
         version: 3.0.2(typescript@5.8.3)(vue@3.5.14(typescript@5.8.3))
@@ -78,6 +72,9 @@ importers:
         specifier: ^4.5.0
         version: 4.5.1(vue@3.5.14(typescript@5.8.3))
     devDependencies:
+      '@antfu/eslint-config':
+        specifier: ^4.13.1
+        version: 4.13.1(@vue/compiler-sfc@3.5.14)(eslint-plugin-format@1.0.1(eslint@9.27.0(jiti@2.4.2)))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
       '@tsconfig/node22':
         specifier: ^22.0.1
         version: 22.0.1
@@ -111,18 +108,6 @@ importers:
       vue-tsc:
         specifier: ^2.2.8
         version: 2.2.10(typescript@5.8.3)
-
-  shared/eslint:
-    devDependencies:
-      '@antfu/eslint-config':
-        specifier: ^4.13.1
-        version: 4.13.1(@vue/compiler-sfc@3.5.14)(eslint-plugin-format@1.0.1(eslint@9.27.0(jiti@2.4.2)))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
-      eslint:
-        specifier: ^9.26.0
-        version: 9.27.0(jiti@2.4.2)
-      eslint-plugin-format:
-        specifier: ^1.0.1
-        version: 1.0.1(eslint@9.27.0(jiti@2.4.2))
 
 packages:
 
